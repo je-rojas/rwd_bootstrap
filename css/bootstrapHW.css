@@ -1,0 +1,22 @@
+body {
+  background-color: #b09dcf;
+}
+
+#columns {
+  /* Safari and Chrome */
+  -webkit-column-count:3;
+  -moz-column-count: 3;
+  column-count:3
+}
+
+ol{
+	list-style: upper-roman;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  h1::after{
+  	content: " (I guess..)"
+  }
+}
